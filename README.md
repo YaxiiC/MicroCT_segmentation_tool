@@ -20,7 +20,7 @@ MicroCT_segmentation_tool/   ← clone / project root
 ## Setup
 
 ```bash
-git clone <your-fork-or-repo-url> MicroCT_segmentation_tool
+git clone https://github.com/YaxiiC/MicroCT_segmentation_tool.git
 cd MicroCT_segmentation_tool
 python -m venv .venv
 # Windows:
