@@ -1,0 +1,6 @@
+numpy>=1.22
+scipy>=1.9
+scikit-image>=0.19
+Pillow>=9.0
+matplotlib>=3.5
+PyQt5>=5.15

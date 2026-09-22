@@ -1,0 +1,42 @@
+# --- Raw micro-CT data (do not commit) ---
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Known dataset folders in this project
+/5-19/
+/5-19 High Resolution/
+/5-21/
+/6-11/
+/6-16/
+/MN Lunar Soil/
+
+# Any future dataset: keep stacks local; optional sample Header only if you choose
+# Uncomment to ignore all top-level dirs that look like data:
+# /*/
+
+# --- Pipeline outputs ---
+_porosity_results/
+_edit_sessions/
+_analysis_preview/
+*_qc/
+
+# --- Python / OS ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
