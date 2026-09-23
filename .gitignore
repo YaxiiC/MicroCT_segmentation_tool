@@ -26,6 +26,13 @@ _edit_sessions/
 _analysis_preview/
 *_qc/
 
+# --- Local-only diagnose / tune helpers (keep on disk, not on GitHub) ---
+_diagnose_*.py
+_tune_*.py
+_test_*.py
+_preview_ct.py
+_pick_threshold_*.py
+
 # --- Python / OS ---
 __pycache__/
 *.py[cod]
